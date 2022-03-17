@@ -1,0 +1,121 @@
+.wrapper {
+  display: flex;
+  justify-content: left;
+}
+
+.main__wrapper {
+  padding: 20px 0px 0px 30px;
+  margin: 0;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 438px;
+  h1 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 17px;
+  }
+  button {
+    background: #4b51ef;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    &:hover {
+      background: #3036e9;
+    }
+    &:focus {
+      background: #3036e9;
+    }
+    &:active {
+      background: #3036e9;
+    }
+  }
+}
+
+form {
+  max-width: 438px;
+  .frame {
+    max-width: 438px;
+    background: #ffffff;
+    border: 1px solid #f3f3f3;
+    border-radius: 8px;
+    padding: 20px 6px 20px 12px;
+    margin-bottom: 10px;
+  }
+
+  .input__wrapper {
+    margin-bottom: 10px;
+    p {
+      font-size: 8px;
+      line-height: 9px;
+      color: #000000;
+      margin-bottom: 3px;
+    }
+    &:last-child {
+      margin-bottom: 0px;
+    }
+    input {
+      width: 211px;
+      background: #ffffff;
+      border: 1px solid #d8d8d8;
+      box-sizing: border-box;
+      border-radius: 5px;
+      padding: 5px 10px;
+      font-size: 10px;
+      line-height: 12px;
+
+      &:read-only {
+        font-size: 10px;
+        line-height: 12px;
+        color: rgba(0, 0, 0, 0.3);
+      }
+    }
+
+    textarea {
+      background: #ffffff;
+      border: 1px solid #d8d8d8;
+      box-sizing: border-box;
+      border-radius: 5px;
+      padding: 5px 10px;
+      font-size: 10px;
+      line-height: 12px;
+      overflow: auto;
+      resize: none;
+      max-width: 420px;
+      width: 100%;
+      min-height: 55px;
+    }
+  }
+
+  .post {
+    margin-left: 350px;
+    background: #52cf4f;
+    border-radius: 5px;
+    border: none;
+    width: 85px;
+    height: 24.12px;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    &:hover {
+      background: #46b445;
+    }
+    &:focus {
+      background: #46b445;
+    }
+    &:active {
+      background: #46b445;
+    }
+    &:disabled {
+      background: #afafaf;
+    }
+  }
+}
